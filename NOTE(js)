@@ -1,0 +1,113 @@
+console.log("hi my name is  shail")// console.log as a statement print karva mate like in c(printf)
+/*  variable  */
+const accountid=1452 // const keyword variable ma raheli value ne constant karva mate jeni value change kari skati nathi
+let accountemail="hitesh@gmail.com"//scoop problem nai ave var ma scoop problem ave che
+var accountpass="1456"
+accountcity="lunawada"
+let accountstate;//if javascript ma declare na karyu hoy to undefined avu ave                                   
+
+
+console.table([accountemail,accountid,accountpass,accountcity,accountstate])//table form ma display karva mate
+
+
+/*------DATA TYPES------*/
+
+
+//number => RANGE: 2 to power 53
+//bigint
+//string => ""
+//boolean => true/false
+//null => standalone value  (undefined nathi e khali che)
+// undefined => (value asign nathi thai haju)
+//symbol  => unique
+
+
+
+// object ma null lai sakay (null ni data type object che)
+
+console.log(typeof "hitsh") //typeof no use variable ni data type janva mate
+console.log(typeof null)// null ni data type object che
+
+let score="33abc"
+
+
+console.log(typeof score);
+console.log(typeof (score));
+
+let valueinnumber= Number(score)// Number(score) means score ne e number ma convert karse
+console.log(typeof valueinnumber);// valueinnumber e score ne number data type ma convert kare che
+console.log(valueinnumber);// for 33abc mate ane print not a number karse
+
+let value=null;
+
+
+console.log(typeof value);
+console.log(typeof (value));
+
+let typeinnumber= Number(score)// Number(score) means score ne e number ma convert karse
+console.log(typeof typeinnumber);// valueinnumber e score ne number data type ma convert kare che
+console.log(typeinnumber)//null mate 0 print thase
+ //a j rite undefined mate NaN avse.
+ 
+ // for boolean value true mate 1 and false mate 0 ave
+
+
+/* overview of a number converter{
+ex.,,
+33 => converted into number
+33abc => NaN (not an number)
+null => null mate 0 printe thase
+Undefined => mate NaN avse number ma convert karia to
+as a boolean 
+
+true => 1
+false => 0
+"" (for empty string) => converted in boolean ans is false
+
+}*/
+
+
+
+
+// *************************operations********************//
+/*  
+
+basic operators are not included
+
+ console.log(2**3)//this means in javascrpit 2 power 3
+
+let str1="hello"
+let str2="hi"
+let str3=str1+str2;
+console.log(str3); // output is hellohi in javascrpit string addition is valid
+*/
+
+// basically jo string pehla hase to ane string consider karvama avse 
+//and pela numbers hase ane string pachi hase to pela numbers ne operators apply thase pachi string joint thase
+ 
+console.log("1"+2);//ans is 12
+console.log(1+"2");//ans is 12
+console.log("1"+"2");//ans is 12
+console.log("1"+2+2);//ans is 122
+console.log(1+2+"2");//ans is 32
+
+let gamecounter=100;
+gamecounter++;
+console.log(gamecounter)// ans is 101
+let num;
+let valuecounter=100;
+num=valuecounter--;//if prefix operator than ans is 99 and 99
+console.log(valuecounter)// ans is 99
+console.log(num)//ans is 100
+
+/********* comparision operator *************/
+
+//this type of example is not suggest
+console.log(null>0)// null converted into a number as treated 0 than this is false
+console.log(null==0) //null converted into a number as treated 0 than this is false
+console.log(null>=0)// null converted into a number as treated 0 than this is true(for graeter or equal to)
+
+//=== convertion
+
+console.log("2"===2)//ans is false because in === convertion check data type in this example string and number  is compared than ans is false
+1:37:53
